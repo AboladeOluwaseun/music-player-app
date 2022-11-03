@@ -6,6 +6,9 @@ module.exports = {
       "dark-alt": "#1A1E1F",
     },
     extend: {
+      backgroundImage: {
+        "main-bg": "url('src/Assets/Home/rectangle.png')",
+      },
       screens: {
         xxsm: "360px",
         xsm: "446px",

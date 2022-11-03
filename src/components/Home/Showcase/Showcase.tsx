@@ -1,14 +1,14 @@
 import React from "react";
 import Navmenu from "./Navmenu";
-
+import ShowcaseMainDisplay from "./ShowcaseMainDisplay";
+import Topcharts from "./Topcharts";
 const Showcase = () => {
   return (
     <>
-      <div className=" grid  grid-cols-showcaseLayout mt-12 min-h-full ">
+      <div className="block lmd:grid grid-cols-showcaseLayout mt-12 min-h-full ">
         <Navmenu />
-        <div className="bg-green-600">i</div>
-
-        <div className=" bg-yellow-500">i</div>
+        <ShowcaseMainDisplay />
+        <Topcharts />
       </div>
     </>
   );
